@@ -38,3 +38,25 @@ if __name__ == "__main__":
 # Enter a: 1
 # Enter b: 100
 # Random Number between 1 and 100 : 71
+
+
+'''
+# Key Points (Solution)
+- Uses random.randint(a, b) to generate a random integer.
+- Both a and b are inclusive (can appear in output).
+- Validates range: raises error if a > b.
+- User input is separated into its own function for clarity.
+- Proper error handling for invalid (non-integer) inputs.
+- main() controls program flow and handles exceptions.
+
+# Key Points (Output)
+- Output is an integer.
+- Value is always between a and b (inclusive).
+- Number changes on every run (unless seed is fixed).
+- Example output: 71
+
+# Important Note
+- random.randint() is suitable when you need whole numbers.
+- Input validation prevents logical and runtime errors.
+'''
+
