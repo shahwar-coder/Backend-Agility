@@ -56,3 +56,41 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Enter your guess (1–50): 2
+# Too Low
+# Enter your guess (1–50): 3
+# Too Low
+# Enter your guess (1–50): 5
+# Too Low
+# Enter your guess (1–50): 8
+# Too Low
+# Enter your guess (1–50): 45
+# Too High
+# Enter your guess (1–50): 34
+# Too Low
+# Enter your guess (1–50): 37
+# Too Low
+# Enter your guess (1–50): 40
+# Correct! You guessed the number.
+
+
+'''
+# Key Points (Solution)
+- Generates a secret number using random.randint(1, 50).
+- Uses a loop to allow repeated guesses until correct.
+- Validates that guesses are within the allowed range.
+- Provides feedback after each guess: "Too Low", "Too High", or "Correct".
+- Handles invalid (non-integer) input gracefully.
+- Separates number generation, input handling, and game logic.
+
+# Key Points (Output)
+- Continuously prints feedback after each guess.
+- Stops only when the correct number is guessed.
+- Final message confirms the correct guess.
+- Output depends on user input and random secret number.
+
+# Important Note
+- Infinite loop (while True) is suitable for games with unknown attempts.
+- Game can be extended by adding attempt counters or hints.
+'''
