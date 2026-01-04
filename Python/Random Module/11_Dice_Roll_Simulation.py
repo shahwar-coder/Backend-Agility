@@ -37,7 +37,17 @@ def main()->None:
 if __name__=="__main__":
     main()
 
-
+# How many times you want to roll?10
+# 5
+# 3
+# 2
+# 5
+# 5
+# 1
+# 1
+# 5
+# 2
+# 2
 
 '''
 # Key Points (Solution)
