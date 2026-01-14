@@ -1,0 +1,9 @@
+id,name,email,is_active
+1,Aarav Sharma,aarav.sharma@example.com,true
+2,Neha Verma,neha.verma@example.com,false
+3,Rohan Singh,rohan.singh@example.com,true
+4,Priya Patel,priya.patel@example.com,true
+5,Karan Mehta,karan.mehta@example.com,false
+6,Ananya Gupta,ananya.gupta@example.com,true
+7,Vikram Rao,vikram.rao@example.com,false
+8,Sneha Iyer,sneha.iyer@example.com,true
