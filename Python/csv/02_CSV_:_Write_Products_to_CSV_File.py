@@ -71,6 +71,11 @@ writer.writeheader()
 for product in products:
     writer.writerow(product)
 '''
+# ============
+'''READER VS WRITER
+reader = csv.DictReader
+writer = csv.DictWriter
+'''
 
 # Output:
 # Products CSV written successfully.
