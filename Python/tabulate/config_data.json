@@ -1,0 +1,30 @@
+[
+  {
+    "service": "auth-service",
+    "environment": "production",
+    "host": "auth.prod.internal",
+    "port": 443,
+    "debug": false
+  },
+  {
+    "service": "user-service",
+    "environment": "staging",
+    "host": "user.staging.internal",
+    "port": 8080,
+    "debug": true
+  },
+  {
+    "service": "payment-service",
+    "environment": "production",
+    "host": "pay.prod.internal",
+    "port": 443,
+    "debug": false
+  },
+  {
+    "service": "notification-service",
+    "environment": "development",
+    "host": "localhost",
+    "port": 5000,
+    "debug": true
+  }
+]

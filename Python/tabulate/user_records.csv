@@ -1,0 +1,6 @@
+id,email,status
+101,alice@example.com,active
+102,bob@example.com,inactive
+103,carol@example.com,active
+104,dave@example.com,pending
+105,eve@example.com,active
