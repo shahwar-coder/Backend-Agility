@@ -21,7 +21,6 @@ a logical size, not just physical length.
 
 from typing import List, Dict, Any
 
-
 class UserPool:
     """Container that tracks active users only"""
 
@@ -59,6 +58,6 @@ users_data = [
 
 user_pool = UserPool(users_data)
 
-print(len(user_pool))  
+print(len(user_pool))
 
 # Output: 3
