@@ -46,7 +46,7 @@ class FileLogger:
 
 
 # ---- Test case ----
-with FileLogger("app.log") as f:
+with FileLogger("Python/Dunder Methods/app.log") as f:
     f.write("User logged in\n")
 
 
