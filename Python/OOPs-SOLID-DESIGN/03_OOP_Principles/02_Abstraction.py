@@ -36,3 +36,17 @@ payment2 = UPIPayment()
 
 payment1.pay(8000)
 payment2.pay(6000)
+
+
+'''
+What this shows:
+
+1. Hides Complexity:
+   User doesn’t know how payment is processed
+
+2. Focus on What:
+   'pay()' defines WHAT, not HOW
+
+3. Better Design:
+   New payment methods can be added easily
+'''
