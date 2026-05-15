@@ -1,0 +1,131 @@
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+.env.*
+!.env.example
+
+# Secrets / credentials
+secrets.*
+credentials.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# TESTING / COVERAGE
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# =========================
+# TYPE CHECKERS / LINTERS
+# =========================
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# LOGS
+# =========================
+*.log
+logs/
+
+# =========================
+# DATABASES
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# AI / ML / DATA
+# =========================
+models/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+
+# =========================
+# TEMP FILES
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# MAC/Linux hidden
+# =========================
+.*.swp
